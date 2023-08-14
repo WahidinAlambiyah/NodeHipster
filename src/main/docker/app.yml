@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nodehipster-app:
+    build: ../../..
+    container_name: nodehipster-app
+    environment:
+    ports:
+      - 8081:8081
